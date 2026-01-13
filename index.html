@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChronoTask - Think, plan, and track</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -33,6 +33,7 @@
             animation: {
               'float': 'float 6s ease-in-out infinite',
               'blob': 'blob 7s infinite',
+              'gradient-x': 'gradient-x 15s ease infinite',
             },
             keyframes: {
               float: {
@@ -44,45 +45,36 @@
                 "33%": { transform: "translate(30px, -50px) scale(1.1)" },
                 "66%": { transform: "translate(-20px, 20px) scale(0.9)" },
                 "100%": { transform: "translate(0px, 0px) scale(1)" }
+              },
+              'gradient-x': {
+                '0%, 100%': {
+                    'background-size': '200% 200%',
+                    'background-position': 'left center'
+                },
+                '50%': {
+                    'background-size': '200% 200%',
+                    'background-position': 'right center'
+                },
               }
             }
-          }
-        }
+          },
+        },
       }
     </script>
-    <style>
-      .dashboard-scroll::-webkit-scrollbar {
-        width: 6px;
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.3",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+        "framer-motion": "https://esm.sh/framer-motion@^12.26.2",
+        "vite": "https://esm.sh/vite@^7.3.1",
+        "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
       }
-      .dashboard-scroll::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      .dashboard-scroll::-webkit-scrollbar-thumb {
-        background-color: #e5e7eb;
-        border-radius: 20px;
-      }
-      .glass-card {
-        background: rgba(255, 255, 255, 0.7);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.5);
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "framer-motion": "https://esm.sh/framer-motion@^12.26.2",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "recharts": "https://esm.sh/recharts@^3.6.0",
-    "vite": "https://esm.sh/vite@^7.3.1",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
-  }
-}
-</script>
-</head>
+    }
+    </script>
+  </head>
   <body class="bg-white text-gray-900 antialiased selection:bg-blue-100 selection:text-blue-900 overflow-x-hidden">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>

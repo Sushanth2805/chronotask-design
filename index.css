@@ -1,0 +1,25 @@
+/* @tailwind directives removed as we are using CDN for stability */
+
+.dashboard-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.dashboard-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.dashboard-scroll::-webkit-scrollbar-thumb {
+  background-color: #e5e7eb;
+  border-radius: 20px;
+}
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+body {
+  background-color: white;
+  color: #111827;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}

@@ -1,14 +1,6 @@
 import React from 'react';
-import { Search, Bell, Menu, Plus, CheckCircle2, Circle, Clock, MoreVertical, Play, Calendar } from 'lucide-react';
-import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
+import { Search } from 'lucide-react';
 import { motion } from 'framer-motion';
-
-const data = [
-  { name: 'Group A', value: 400 },
-  { name: 'Group B', value: 300 },
-  { name: 'Group C', value: 300 },
-];
-const COLORS = ['#3b82f6', '#10b981', '#fbbf24'];
 
 const Solutions: React.FC = () => {
   return (

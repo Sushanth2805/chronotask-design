@@ -22,16 +22,16 @@ interface ImportMetaEnv {
 }
 
 interface ImportMeta {
-  readonly url: string;
+  // url is already declared in global ImportMeta interface
   readonly env: ImportMetaEnv;
   readonly glob: any;
 }
 
 // Support for process.env as per Google GenAI SDK guidelines
-declare var process: {
-  env: {
+declare namespace NodeJS {
+  interface ProcessEnv {
     NODE_ENV: string;
     API_KEY?: string;
     [key: string]: string | undefined;
-  };
-};
+  }
+}

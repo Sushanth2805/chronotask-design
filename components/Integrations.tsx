@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { LayoutGrid } from 'lucide-react';
 
 // Brand Icons as Components for cleaner usage
 const Icons = {
