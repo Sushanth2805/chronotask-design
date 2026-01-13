@@ -6,12 +6,8 @@ const Hero: React.FC = () => {
   return (
     <section className="relative w-full overflow-hidden bg-white pb-20 pt-32 lg:pb-40 lg:pt-48">
       
-      {/* Aurora Background Effects - Clean Version */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
-        <div className="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] rounded-full bg-purple-100/50 mix-blend-multiply filter blur-[120px] opacity-70 animate-blob"></div>
-        <div className="absolute -top-[10%] -right-[10%] w-[50%] h-[50%] rounded-full bg-blue-100/50 mix-blend-multiply filter blur-[120px] opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute -bottom-[20%] left-[20%] w-[60%] h-[60%] rounded-full bg-indigo-100/50 mix-blend-multiply filter blur-[120px] opacity-70 animate-blob animation-delay-4000"></div>
-      </div>
+      {/* Clean Background - No Aurora/Noise */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none bg-white"></div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
