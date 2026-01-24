@@ -12,7 +12,7 @@ const FAQItem = ({ question, answer }: { question: string; answer: string }) => 
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="text-base font-semibold text-gray-900">{question}</span>
-        {isOpen ? <Minus size={20} className="text-blue-600" /> : <Plus size={20} className="text-gray-400" />}
+        {isOpen ? <Minus size={20} className="text-orange-600" /> : <Plus size={20} className="text-gray-400" />}
       </button>
       <motion.div 
         initial={false}

@@ -17,41 +17,41 @@ const Footer: React.FC = () => {
               The all-in-one workspace for your tasks, notes, and team collaboration. Designed for speed and efficiency.
             </p>
             <div className="flex gap-4">
-                <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 text-gray-500 transition-colors hover:bg-blue-50 hover:text-blue-600"><Twitter size={18} /></a>
-                <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 text-gray-500 transition-colors hover:bg-blue-50 hover:text-blue-600"><Linkedin size={18} /></a>
-                <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 text-gray-500 transition-colors hover:bg-blue-50 hover:text-blue-600"><Facebook size={18} /></a>
-                <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 text-gray-500 transition-colors hover:bg-blue-50 hover:text-blue-600"><Instagram size={18} /></a>
+                <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 text-gray-500 transition-colors hover:bg-orange-50 hover:text-orange-600"><Twitter size={18} /></a>
+                <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 text-gray-500 transition-colors hover:bg-orange-50 hover:text-orange-600"><Linkedin size={18} /></a>
+                <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 text-gray-500 transition-colors hover:bg-orange-50 hover:text-orange-600"><Facebook size={18} /></a>
+                <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 text-gray-500 transition-colors hover:bg-orange-50 hover:text-orange-600"><Instagram size={18} /></a>
             </div>
           </div>
           
           <div>
             <h4 className="mb-6 text-sm font-bold text-gray-900">Product</h4>
             <ul className="space-y-4 text-sm font-medium text-gray-500">
-              <li><a href="#features" className="hover:text-blue-600 transition-colors">Features</a></li>
-              <li><a href="#solutions" className="hover:text-blue-600 transition-colors">Solutions</a></li>
-              <li><a href="#pricing" className="hover:text-blue-600 transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Changelog</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Docs</a></li>
+              <li><a href="#features" className="hover:text-orange-600 transition-colors">Features</a></li>
+              <li><a href="#solutions" className="hover:text-orange-600 transition-colors">Solutions</a></li>
+              <li><a href="#pricing" className="hover:text-orange-600 transition-colors">Pricing</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Changelog</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Docs</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="mb-6 text-sm font-bold text-gray-900">Company</h4>
             <ul className="space-y-4 text-sm font-medium text-gray-500">
-              <li><a href="#" className="hover:text-blue-600 transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Careers</a> <span className="text-xs text-green-600 font-bold bg-green-50 px-2 py-0.5 rounded-full ml-1">Hiring</span></li>
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Partners</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">About</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Careers</a> <span className="text-xs text-green-600 font-bold bg-green-50 px-2 py-0.5 rounded-full ml-1">Hiring</span></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Blog</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Contact</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Partners</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="mb-6 text-sm font-bold text-gray-900">Legal</h4>
             <ul className="space-y-4 text-sm font-medium text-gray-500">
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Privacy</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Terms</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Security</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Privacy</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Terms</a></li>
+              <li><a href="#" className="hover:text-orange-600 transition-colors">Security</a></li>
             </ul>
           </div>
 
