@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, BarChart3, Layout, ChevronRight, MessageCircle, Zap } from 'lucide-react';
+import { Clock, BarChart3, Layout, MessageCircle, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Features: React.FC = () => {
